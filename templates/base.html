@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Loc Expresse{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>🚗 Loc Expresse</h1>
+        <nav>
+            <a href="/">Accueil</a> |
+            <a href="/about">À propos</a> |
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>© 2025 Loc Expresse</p>
+    </footer>
+</body>
+</html>
